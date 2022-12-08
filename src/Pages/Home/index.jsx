@@ -10,13 +10,11 @@ import { useEffect } from 'react';
 const Home = () => {
     return (
         <>
-            <main className="maxWidth pt-24 md:pt-[29vh] ">
-                <div className="greeting  text-[40px] md-[45px] ml-[5%] md:ml-0">
-                    Hello, 
-                    {/* <br /> */}
-                    Gaurav Singh here.
+            <main className="maxWidth homePage pt-32 md:pt-[29vh] md:p-[20px] md:w-[65%] md:m-auto">
+                <div className="greeting  md:text-[50px] text-[40px] ml-[5%] md:ml-0">
+                   I'm Gaurav Singh
                 </div>
-                <div className="w-[90%] md:w-[100%] text-center textFont font-black m-auto text-[14px]">
+                <div className="w-[90%] md:w-[100%] text-center textFont font-black m-auto mt-[2.5rem] text-[12.8px] leading-6">
                     <div className="mt-4 text-justify md:w-[75%]">
                         9.5+ years of experience as an Automation Test Engineer and has worked primarily in the BFSI domain. Most of my experience is in Payment Solutions and Financial Banking.
                         <br />
