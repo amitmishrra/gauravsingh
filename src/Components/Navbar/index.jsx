@@ -29,7 +29,7 @@ export default function Header() {
             setIcon('navToggler')
     }
     return (
-        <div className="headWrapper z-[1] h-[75px] md:h-[100px] md:pt-[120px] p-[4] pt-8">
+        <div className="headWrapper z-[1] h-[75px] md:h-[100px] md:pt-24 p-[4]">
             <div className="header h-full ">
                 <NavLink to={'/'} >
                     <div className='flex justify-center items-center'>
@@ -39,13 +39,13 @@ export default function Header() {
                     </div>
                 </NavLink>
                 <div className={active} >
-                    <ul className='appleFont' >
-                        <li className='p-[30px] md:p-[15px]' onClick={navToggle}><NavLink onClick={()=>{setActiveIndex(0)}} className={activeIndex == 0 ? 'active_item' : 'menu_item'} to={'/'} > Home </NavLink></li>
+                    <ul className='appleFont font-bold' >
+                        <li className='p-[30px] md:p-[15px]' onClick={navToggle}><NavLink onClick={()=>{setActiveIndex(0)}} className={activeIndex == 0 ? 'active_item' : 'menu_item'} to={'/'} > HOME </NavLink></li>
                         {/* <li onClick={navToggle}><NavLink onClick={()=>{setActiveIndex(1)}} className={activeIndex == 1 ? 'active_item ' : 'menu_item'} to={'/about'} > About </NavLink></li> */}
-                        <li className='p-[30px] md:p-[15px]' onClick={navToggle}><NavLink onClick={()=>{setActiveIndex(2)}} className={activeIndex == 2 ? 'active_item ' : 'menu_item'} to={'/experience'} > Experience </NavLink></li>
-                        <li className='p-[30px] md:p-[15px]' onClick={navToggle}><NavLink onClick={()=>{setActiveIndex(3)}} className={activeIndex == 3 ? 'active_item ' : 'menu_item'} to={'/projects'} > Projects </NavLink></li>
-                        <li className='p-[30px] md:p-[15px]' onClick={navToggle}><NavLink onClick={()=>{setActiveIndex(4)}} className={activeIndex === 4 ? 'active_item ' : 'menu_item'} to={'/resume'} > Resume </NavLink></li>
-                        <li className='p-[30px] md:p-[15px]' onClick={navToggle}><NavLink onClick={()=>{setActiveIndex(5)}} className={activeIndex === 5 ? 'active_item ' : 'menu_item'} to={'/contact'} > Contact </NavLink></li>
+                        <li className='p-[30px] md:p-[15px]' onClick={navToggle}><NavLink onClick={()=>{setActiveIndex(2)}} className={activeIndex == 2 ? 'active_item ' : 'menu_item'} to={'/experience'} > EXPERIENCE </NavLink></li>
+                        <li className='p-[30px] md:p-[15px]' onClick={navToggle}><NavLink onClick={()=>{setActiveIndex(3)}} className={activeIndex == 3 ? 'active_item ' : 'menu_item'} to={'/projects'} > PROJECTS </NavLink></li>
+                        <li className='p-[30px] md:p-[15px]' onClick={navToggle}><NavLink onClick={()=>{setActiveIndex(4)}} className={activeIndex === 4 ? 'active_item ' : 'menu_item'} to={'/resume'} > RESUME </NavLink></li>
+                        <li className='p-[30px] md:p-[15px]' onClick={navToggle}><NavLink onClick={()=>{setActiveIndex(5)}} className={activeIndex === 5 ? 'active_item ' : 'menu_item'} to={'/contact'} > CONTACT </NavLink></li>
                     </ul>
                 </div>
                 <div onClick={navToggle} className={togglerIcon}>

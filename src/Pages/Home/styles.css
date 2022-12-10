@@ -1,7 +1,19 @@
-.greeting{
-    
+.greeting{   
     font-weight: bolder;
 }
 .para{
     font-weight: 500;
+}
+
+.arrow {
+    animation: bounce 1s infinite;
+}
+
+@keyframes bounce {
+    0%, 100% {
+        transform: translate(0, 0);
+      }
+      50% {
+        transform: translate(10px, 0);
+      }
 }
