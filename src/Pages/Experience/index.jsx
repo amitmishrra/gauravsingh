@@ -8,7 +8,7 @@ const Experience = () => {
     <main>
         <section>
             <h1>Experience</h1>
-            this is Experience page
+            this is Experience page 
         </section>
     </main>
   )
