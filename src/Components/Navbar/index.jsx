@@ -33,7 +33,7 @@ export default function Header() {
             <div className="header h-full ">
                 <NavLink to={'/'} >
                     <div className='flex justify-center items-center'>
-                        <div className='text-[37px] md:text-[45px] logotext'>
+                        <div className='text-[37px] md:text-[45px] headingFont'>
                             GS.
                         </div>
                     </div>
