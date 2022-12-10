@@ -9,7 +9,7 @@ const Experience = (title, time, pos, p1, p2, p3, p4, p5, p6, p7, p8, p9) => {
   return (
     <main>
       <section>
-        <h1 className="underLineStyle">Experience</h1>
+        <h1 className="underLineStyle">Experience.</h1>
 
         {
           expData.map((index) => {
@@ -20,11 +20,11 @@ const Experience = (title, time, pos, p1, p2, p3, p4, p5, p6, p7, p8, p9) => {
                     <p className=" text-md md:text-lg font-semibold">
                       {title = index.title}
                     </p>
-                    <p className="text-lg md:text-md">
+                    <p className="text-sm md:text-md">
                       {pos = index.pos}
                     </p>
                   </div>
-                  <div className="min-w-max md:min-w-max text-md md:text-sm textFont">
+                  <div className="min-w-max md:min-w-max text-sm md:text-sm textFont">
                     {time = index.time}
                   </div>
                 </div>
