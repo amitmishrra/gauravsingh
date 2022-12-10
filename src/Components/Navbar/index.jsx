@@ -29,7 +29,7 @@ export default function Header() {
             setIcon('navToggler')
     }
     return (
-        <div className="headWrapper z-[1] h-[75px] md:h-[100px] md:pt-24 p-[4]">
+        <div className="headWrapper z-[1] h-[75px] md:h-[100px] p-[4]">
             <div className="header h-full ">
                 <NavLink to={'/'} >
                     <div className='flex justify-center items-center'>

@@ -1,0 +1,47 @@
+const expData = [{
+    title: "Mphasis",
+    time: "Feb 2021 - Jan 2022",
+    pos: "Module Lead-Testing",
+    p1: "Automating End to End test suites.",
+    p2: "Setting up Selenium WebDriver Framework with JavaScript from start.",
+    p3: "Setting up CI/CD pipelines in TeamCity.",
+    p4: "Developing BDD and TDD script with Cucumber Java Selenium.",
+    p5: "Setting up and contributing to developing API Automation Test cases.",
+    p6: "Handle technical communications with Partners to understand client’s systems or APIs",
+    p7: "Work with deployments teams and resolve any level issues for the system.",
+    p8: "Also able to set up, maintain, and operate test automation frameworks.",
+    p9: "Create & manage bug reports and communicate with the team.",
+},{
+    title: "Fiserv",
+    time: "June 2017 - Feb 2021",
+    pos: "Automation Test Engineer",
+    p1: "implemented and Developed - Selenium-WebDriver framework (TestNG), and TOSCA-API framework.",
+    p2: "Automated around 70% of test cases which team was manually executing previously.",
+    p3: "Achieved and Automated 90% of in-sprint testcases.",
+    p4: "Testing REST-API, validating the Endpoint URL, JSON request and responses.",
+    p5: "Implemented and executing test cases through CI/CD , and generating reports.",
+},{
+    title: "AartekOne",
+    time: "May 2015 - Apr 2017",
+    pos: "Test Engineer",
+    p1: "API Testing through SOAP UI and Rest Assured Framework.",
+    p2: "Involved in designing Rest Assured and Selenium web driver scripts with Java.",
+    p3: "Performing and maintaining, testing in hybrid framework through QTP.",
+},{
+    title: "ASK-EHS PVT. LTD",
+    time: "Feb 2015 - May 2015",
+    pos: "Test Engineer",
+    p1: "Testing application through REST API and checking the responses.",
+    p2: "Involved in manual and database testing.",
+    p3: "Did performance testing with JMETER on static pages to check the response of application.",
+    p4: "Writing test cases, executing test cases and logging defects.",
+    p5: "Creating RTM and performing testing as per SRS.",
+},{ 
+    title: "IBM",
+    time: "Oct. 2011-Nov 2012",
+    pos: "Tech Server Ops.",
+    p1: "Working on upgrading Linux package.",
+    p2: "Working on resolving software issues for client.",
+}]
+
+export default expData
