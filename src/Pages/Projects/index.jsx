@@ -21,7 +21,7 @@ const Projects = () => {
                     <p className="project-desc py-2 text-xl font-bold">
                       {data.proj_Desc}
                     </p>
-                    <div className="techStack pt-2 flex gap-2 font-bold">
+                    <div className="techStack pt-2 flex gap-2 font-bold flex-wrap">
                       {
                         data.techStack.map((item) => {
                           return (
