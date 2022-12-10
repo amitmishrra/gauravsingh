@@ -1,0 +1,42 @@
+[
+    {
+        "card_Img": "assets/UI.png",
+        "proj_Name": "UI Automation",
+        "proj_Desc": "tempDesc",
+        "techStack": [
+            "Selenium",
+            "CucumberBDD",
+            "java"
+        ],
+        "link" : "https://github.com/String-Gaurav/CPDemoProject"
+    },
+    {
+        "card_Img": "assets/API2.png",
+        "proj_Name": "API Automamtion",
+        "proj_Desc": "tempDesc",
+        "techStack": [
+            "Selenium",
+            "RESTAssured",
+            "CucumberBDD",
+            "java",
+            "Maven",
+            "TestNG"
+        ],
+        "link" : "https://github.com/String-Gaurav/apiAutomation"
+    },
+    {
+        "card_Img": "assets/accessibility-testing.png",
+        "proj_Name": "Accesibility Test",
+        "proj_Desc": "tempDesc",
+        "techStack": [
+            "Selenium",
+            "React.js",
+            "Dque-AXE",
+            "CucumberBDD",
+            "java",
+            ""
+        ],
+        "link" : "https://github.com/String-Gaurav/Accessibility-Testing"
+    }
+    
+]

@@ -7,10 +7,10 @@
 .headWrapper {
     justify-content: center;
     padding-bottom: 0px;
-    /* position: sticky; */
+    position: sticky;
     top: 0;
     width: 100vw;
-    padding-top: 6rem;
+    background-color: #f2f2f2;
     /* backdrop-filter: blur(7px); */
 }
 
@@ -49,10 +49,8 @@
 .menu ul li {
     text-decoration: none;
     list-style: none;
-    padding: 15px;
-    font-size: 17px;
     cursor: pointer;
-    font-family: 'Poppins', sans-serif;
+    /* font-family: 'Poppins', sans-serif; */
 }
 
 .menu_item {
@@ -80,7 +78,8 @@
          align-items: center;
         display: flex;
         position: fixed;
-        padding-top: 0;
+        padding-top: 10px;
+        padding-bottom: 10px;
     }
 
     .header {

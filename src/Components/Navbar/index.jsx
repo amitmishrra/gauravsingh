@@ -29,7 +29,7 @@ export default function Header() {
             setIcon('navToggler')
     }
     return (
-        <div className="headWrapper z-[1] h-[75px] md:h-[100px] p-[4]">
+        <div className="headWrapper z-[1] md:pt-24">
             <div className="header h-full ">
                 <NavLink to={'/'} >
                     <div className='flex justify-center items-center'>
@@ -39,7 +39,7 @@ export default function Header() {
                     </div>
                 </NavLink>
                 <div className={active} >
-                    <ul className='appleFont font-bold' >
+                    <ul className='textFont' >
                         <li className='p-[30px] md:p-[15px]' onClick={navToggle}><NavLink onClick={()=>{setActiveIndex(0)}} className={activeIndex == 0 ? 'active_item' : 'menu_item'} to={'/'} > HOME </NavLink></li>
                         {/* <li onClick={navToggle}><NavLink onClick={()=>{setActiveIndex(1)}} className={activeIndex == 1 ? 'active_item ' : 'menu_item'} to={'/about'} > About </NavLink></li> */}
                         <li className='p-[30px] md:p-[15px]' onClick={navToggle}><NavLink onClick={()=>{setActiveIndex(2)}} className={activeIndex == 2 ? 'active_item ' : 'menu_item'} to={'/experience'} > EXPERIENCE </NavLink></li>

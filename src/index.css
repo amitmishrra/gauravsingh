@@ -38,7 +38,7 @@ main {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 40% 0 5rem 0;
+  padding: 20% 0 5rem 0;
 }
 
 section {
@@ -51,7 +51,7 @@ section {
 
 @media (min-width: 770px) {
   main {
-    padding-top: 6em;
+    padding-top: 2em;
   }
 
   section {
@@ -60,11 +60,11 @@ section {
   }
 }
 
-@media (min-width: 1440px) {
+/* @media (min-width: 1440px) {
   main {
     padding-top: 15rem;
   }
-}
+} */
 /*  */
 
 

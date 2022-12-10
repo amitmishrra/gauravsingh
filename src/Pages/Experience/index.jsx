@@ -9,7 +9,7 @@ const Experience = (title, time, pos, p1, p2, p3, p4, p5, p6, p7, p8, p9) => {
   return (
     <main>
       <section>
-        <h1>Experience</h1>
+        <h1 className="underLineStyle">Experience</h1>
 
         {
           expData.map((index) => {
