@@ -36,7 +36,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 20px;
+    border-radius: 10px;
 }
 .loader{
     height: 60px !important;
