@@ -4,13 +4,12 @@ import React, { useState } from 'react'
 import { useEffect } from 'react';
 import expData from "../../Data/ExperienceData.json";
 
-const Experience = (title, time, pos, p1, p2, p3, p4, p5, p6, p7, p8, p9) => {
+const Experience = () => {
 
   return (
     <main>
       <section>
-        <h1 className="underLineStyle">Experience.</h1>
-
+        <h1 className="underLineStyle">Work History.</h1>
         {
           expData.map((index) => {
             return (
@@ -20,15 +19,15 @@ const Experience = (title, time, pos, p1, p2, p3, p4, p5, p6, p7, p8, p9) => {
                     <div className="flex flex-row items-center">
                       <img src={index.icon} className="w-[30px] mr-2 rounded-[20px]" alt="" />
                       <p className=" text-md md:text-lg font-semibold ">
-                        {title = index.title}
+                        {index.title}
                       </p>
                     </div>
                     <p className="text-md italic mt-2">
-                      {pos = index.pos}
+                      {index.pos}
                     </p>
                   </div>
                   <div className="min-w-max md:min-w-max text-sm md:text-sm textFont">
-                    {time = index.time}
+                    {index.time}
                   </div>
                 </div>
 

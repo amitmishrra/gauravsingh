@@ -2,7 +2,7 @@
     {
         "card_Img": "assets/UI.png",
         "proj_Name": "UI Automation",
-        "proj_Desc": "tempDesc",
+        "proj_Desc": "Outline a brief description of this project. -Selenium 4 Framework with TestNG, Maven, Extent Reporting.",
         "techStack": [
             "Selenium",
             "CucumberBDD",
@@ -13,7 +13,7 @@
     {
         "card_Img": "assets/API2.png",
         "proj_Name": "API Automamtion",
-        "proj_Desc": "tempDesc",
+        "proj_Desc": "Rest Assured Framework with TestNG, Maven, Extent Reporting, Allure Reporting.",
         "techStack": [
             "Selenium",
             "RESTAssured",
@@ -27,14 +27,13 @@
     {
         "card_Img": "assets/accessibility-testing.png",
         "proj_Name": "Accesibility Test",
-        "proj_Desc": "tempDesc",
+        "proj_Desc": "Framework has been created to do Accessibility Testing for a demo website",
         "techStack": [
             "Selenium",
             "React.js",
             "Dque-AXE",
             "CucumberBDD",
-            "java",
-            ""
+            "java"
         ],
         "link" : "https://github.com/String-Gaurav/Accessibility-Testing"
     }

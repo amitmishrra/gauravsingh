@@ -4,7 +4,7 @@ import Home from "./Pages/Home";
 import Experience from "./Pages/Experience";
 import Projects from "./Pages/Projects";
 import Resume from "./Pages/Resume";
-import Contact from "./Pages/Contact";
+import Blogs from "./Pages/Blogs";
 
 function App() {
   return (
@@ -17,7 +17,7 @@ function App() {
                 <Home/>
               </CommonContainer>
             } />
-          <Route path="experience"
+          <Route path="work-history"
             element={
               <CommonContainer>
                 <Experience/>
@@ -35,10 +35,10 @@ function App() {
                 <Resume/>
               </CommonContainer>
             } />
-          <Route path="contact"
+          <Route path="blogs"
             element={
               <CommonContainer>
-                <Contact/>
+              <Blogs/>
               </CommonContainer>
             } />
         </Routes>
