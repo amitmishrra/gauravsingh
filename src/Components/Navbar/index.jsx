@@ -13,7 +13,7 @@ export default function Header() {
     '/skills',
     '/projects',
     '/resume',
-    '/contact']
+    '/blogs']
 
     useEffect(() => {
        setActiveIndex(paths.indexOf(location.pathname))
