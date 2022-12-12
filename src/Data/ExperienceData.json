@@ -13,7 +13,8 @@
             "Work with deployments teams and resolve any level issues for the system.",
             "Also able to set up, maintain, and operate test automation frameworks.",
             "Create & manage bug reports and communicate with the team."
-        ]
+        ],
+        "icon" : "assets/icons/mph.jpg"
     },
     {
         "title": "Fiserv",
@@ -25,7 +26,8 @@
             "Achieved and Automated 90% of in-sprint testcases.",
             "Testing REST-API, validating the Endpoint URL, JSON request and responses.",
             "Implemented and executing test cases through CI/CD , and generating reports."
-        ]
+        ],
+        "icon" : "assets/icons/fin.jpg"
     },
     {
         "title": "AartekOne",
@@ -35,7 +37,8 @@
             "API Testing through SOAP UI and Rest Assured Framework.",
             "Involved in designing Rest Assured and Selenium web driver scripts with Java.",
             "Performing and maintaining, testing in hybrid framework through QTP."
-        ]
+        ],
+        "icon" : "assets/icons/aar.jpg"
     },
     {
         "title": "ASK-EHS PVT. LTD",
@@ -47,7 +50,8 @@
             "Did performance testing with JMETER on static pages to check the response of application.",
             "Writing test cases, executing test cases and logging defects.",
             "Creating RTM and performing testing as per SRS."
-        ]
+        ],
+        "icon" : "assets/icons/ask.jpg"
     },
     {
         "title": "IBM",
@@ -56,6 +60,7 @@
         "responsibility": [
             "Working on upgrading Linux package.",
             "Working on resolving software issues for client."
-        ]
+        ],
+        "icon" : "assets/icons/ibm.jpg"
     }
 ]
