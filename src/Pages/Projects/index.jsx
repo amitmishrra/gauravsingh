@@ -12,8 +12,8 @@ const Projects = () => {
             {
               projData.map((data)=>{
                 return(
-                  <div className="card relative block w-full md:w-[35rem] h-[20rem] rounded-xl my-4 cursor-pointer" onClick={()=>{window.open(data.link, "_blank")}}>
-                  <img src={data.card_Img} alt="" className="card-img w-full object-scale-down max-h-[20rem]" />
+                  <div className="card relative block w-full md:w-[35rem] h-[20rem] rounded-2xl my-4 cursor-pointer bg-gray-200 shadow-2xl" onClick={()=>{window.open(data.link, "_blank")}}>
+                  <img src={data.card_Img} alt="" className="card-img w-[100%] rounded-2xl object-scale-down max-h-[20rem]" />
                   <div className="card-desc absolute w-full bottom-0 left-0 p-2 rounded-xl text-white bg-gradient-to-b from-transparent to-[#080808]">
                     <p className="project-name text-3xl font-bold">
                       {data.proj_Name}
