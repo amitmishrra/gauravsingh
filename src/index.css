@@ -42,7 +42,7 @@ main {
 }
 
 section {
-  width: 95%;
+  width: 100%;
   padding-inline: 1rem;
   display: flex;
   flex-direction: column;
@@ -52,6 +52,8 @@ section {
 @media (min-width: 770px) {
   main {
     padding-top: 2rem;
+    max-width: 900px;
+    margin: auto;
   }
 
   section {

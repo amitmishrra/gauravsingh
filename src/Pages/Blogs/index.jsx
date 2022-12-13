@@ -7,15 +7,15 @@ import blogsData from "../../Data/BlogsData.json"
 const Blogs = () => {
   return (
     <main>
-      <section>
+      <section className=" ">
         <h1>Blogs.</h1>
         
         <div className="blogs flex lg:flex-row flex-col justify-center items-center flex-wrap">
         {
           blogsData.map((data)=>{
             return(
-              <div onClick={()=>{window.open(data.link, "_blank")}}>
-                <div className="container flex items-center p-3  w-[90%] lg:w-[40vw] lg:h-[35vh] h-[20vh] rounded-2xl bg-gray-200 shadow-xl my-4">
+          
+                <div onClick={()=>{window.open(data.link, "_blank")}} className="container flex items-center p-3  w-[90%] lg:w-[40vw] lg:h-[35vh] h-[20vh] rounded-2xl bg-gray-200 shadow-xl my-4">
                     <img src={data.img} className=" object-cover h-[9rem] w-[30%]  lg:h-full rounded" alt="" />
                     <div className=" w-[70%] pl-3 flex flex-col">
                         <h1 className=" text-[17px] md:text-[24px] font-semibold mb-2">
@@ -29,7 +29,6 @@ const Blogs = () => {
                         </button>
                     </div>
                 </div>
-            </div>
             )
           })
         }
