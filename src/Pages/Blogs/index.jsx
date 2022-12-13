@@ -15,10 +15,10 @@ const Blogs = () => {
           blogsData.map((data)=>{
             return(
           
-                <div onClick={()=>{window.open(data.link, "_blank")}} className="container flex items-center p-3  w-[90%] lg:w-[40vw] lg:h-[35vh] h-[20vh] rounded-2xl bg-gray-200 shadow-xl my-4">
+                <div onClick={()=>{window.open(data.link, "_blank")}} className="container flex items-center p-3  w-[90%] lg:w-[40vw] lg:h-[35vh] h-[25vh] rounded-2xl bg-gray-200 shadow-xl my-4">
                     <img src={data.img} className=" object-cover h-[9rem] w-[30%]  lg:h-full rounded" alt="" />
-                    <div className=" w-[70%] pl-3 flex flex-col">
-                        <h1 className=" text-[17px] md:text-[24px] font-semibold mb-2">
+                    <div className=" w-[70%] pl-3 flex flex-col justify-around">
+                        <h1 className=" text-[15px] md:text-[24px] font-semibold mb-2">
                              {data.title}
                         </h1>
                         <p className=" text-justify mb-2 text-[12px] md:text-[14px]">
