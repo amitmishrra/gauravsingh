@@ -10,13 +10,13 @@ const Blogs = () => {
       <section>
         <h1>Blogs.</h1>
         
-        <div className="blogs flex md:flex-row flex-col justify-center items-center flex-wrap">
+        <div className="blogs flex lg:flex-row flex-col justify-center items-center flex-wrap">
         {
           blogsData.map((data)=>{
             return(
               <NavLink to={data.link}>
-                <div className="container flex items-center p-3  w-[90vw] md:w-[40vw] md:h-[35vh] h-[20vh] rounded-2xl bg-gray-200 shadow-xl my-4">
-                    <img src={data.img} className=" object-cover h-[9rem] w-[30%]  md:h-full rounded" alt="" />
+                <div className="container flex items-center p-3  w-[90%] lg:w-[40vw] lg:h-[35vh] h-[20vh] rounded-2xl bg-gray-200 shadow-xl my-4">
+                    <img src={data.img} className=" object-cover h-[9rem] w-[30%]  lg:h-full rounded" alt="" />
                     <div className=" w-[70%] pl-3 flex flex-col">
                         <h1 className=" text-[17px] md:text-[24px] font-semibold mb-2">
                              {data.title}
