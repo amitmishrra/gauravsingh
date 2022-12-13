@@ -14,7 +14,7 @@ const Blogs = () => {
         {
           blogsData.map((data)=>{
             return(
-              <NavLink to={data.link}>
+              <div onClick={()=>{window.open(data.link, "_blank")}}>
                 <div className="container flex items-center p-3  w-[90%] lg:w-[40vw] lg:h-[35vh] h-[20vh] rounded-2xl bg-gray-200 shadow-xl my-4">
                     <img src={data.img} className=" object-cover h-[9rem] w-[30%]  lg:h-full rounded" alt="" />
                     <div className=" w-[70%] pl-3 flex flex-col">
@@ -24,12 +24,12 @@ const Blogs = () => {
                         <p className=" text-justify mb-2 text-[12px] md:text-[14px]">
                         {data.data}
                         </p>
-                        <button className="readbtn text-[12px] md:text-[14px] w-[35%]">
+                        <button onClick={()=>{window.open(data.link, "_blank")}} className="readbtn text-[12px] md:text-[14px] w-[35%]">
                             Read more
                         </button>
                     </div>
                 </div>
-            </NavLink>
+            </div>
             )
           })
         }

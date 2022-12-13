@@ -75,7 +75,7 @@
 @media screen and (max-width : 700px) {
     .headWrapper {
         background-color: #f2f2f2;
-         align-items: center;
+        align-items: center;
         display: flex;
         position: fixed;
         padding-top: 10px;
