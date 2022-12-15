@@ -30,12 +30,12 @@ function App() {
                 <Projects />
               </CommonContainer>
             } />
-          <Route path="resume"
+          {/* <Route path="resume"
             element={
               <CommonContainer>
                 <Resume />
               </CommonContainer>
-            } />
+            } /> */}
           <Route path="blogs"
             element={
               <CommonContainer>
