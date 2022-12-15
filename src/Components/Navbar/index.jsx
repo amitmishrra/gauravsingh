@@ -44,7 +44,7 @@ export default function Header() {
                         <li className='m-[30px] md:m-[15px]' onClick={navToggle}><NavLink onClick={()=>{setActiveIndex(1)}} className={activeIndex == 1 ? 'active_item ' : 'menu_item'} to={'/work-history'} > WORK HISTORY </NavLink></li>
                         <li className='m-[30px] md:m-[15px]' onClick={navToggle}><NavLink onClick={()=>{setActiveIndex(2)}} className={activeIndex == 2 ? 'active_item' : 'menu_item'} to={'/skills'} > SKILLS </NavLink></li>
                         <li className='m-[30px] md:m-[15px]' onClick={navToggle}><NavLink onClick={()=>{setActiveIndex(3)}} className={activeIndex == 3 ? 'active_item ' : 'menu_item'} to={'/projects'} > PROJECTS </NavLink></li>
-                        <li className='m-[30px] md:m-[15px]' onClick={navToggle}><NavLink onClick={()=>{setActiveIndex(4)}} className={activeIndex === 4 ? 'active_item ' : 'menu_item'} to={'/resume'} > RESUME </NavLink></li>
+                        {/* <li className='m-[30px] md:m-[15px]' onClick={navToggle}><NavLink onClick={()=>{setActiveIndex(4)}} className={activeIndex === 4 ? 'active_item ' : 'menu_item'} to={'/resume'} > RESUME </NavLink></li> */}
                         <li className='m-[30px] md:m-[15px]' onClick={navToggle}><NavLink onClick={()=>{setActiveIndex(5)}} className={activeIndex === 5 ? 'active_item ' : 'menu_item'} to={'/blogs'} > BLOGS </NavLink></li>
                     </ul>
                 </div>
