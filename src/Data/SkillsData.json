@@ -2,27 +2,27 @@
     {
         "name" : "Java",
         "icon" : "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg",
-        "progress" : 75
+        "progress" : 90
     },
     {
         "name" : "Selenium",
         "icon" : "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/selenium/selenium-original.svg",
-        "progress" : 75
+        "progress" : 95
     },
     {
         "name" : "REST Assured",
         "icon" : "assets/skills/rest.png",
-        "progress" : 75
+        "progress" : 90
     },
     {
         "name" : "CI/CD",
         "icon" : "assets/skills/cicd.png",
-        "progress" : 75
+        "progress" : 90
     },
     {
         "name" : "Cucumber-BDD",
         "icon" : "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cucumber/cucumber-plain.svg",
-        "progress" : 75
+        "progress" : 98
     },
     {
         "name" : "Spring Boot",
@@ -32,41 +32,41 @@
     {
         "name" : "API Automation",
         "icon" : "assets/skills/apiAuto.png",
-        "progress" : 75
+        "progress" : 90
     },
     {
         "name" : "UI Automation",
         "icon" : "assets/skills/UIAuto.png",
-        "progress" : 75
+        "progress" : 98
     },
     {
         "name" : "Docker",
         "icon" : "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg",
-        "progress" : 75
+        "progress" : 80
     },
     {
         "name" : "J Meter",
         "icon" : "assets/skills/jmeter.svg",
-        "progress" : 75
+        "progress" : 90
     },
     {
         "name" : "Team City",
         "icon" : "assets/skills/TeamCity.png",
-        "progress" : 75
+        "progress" : 80
     },
     {
         "name" : "Git",
         "icon" : "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg",
-        "progress" : 75
+        "progress" : 95
     },
     {
         "name" : "IntelliJ",
         "icon" : "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/intellij/intellij-original.svg",
-        "progress" : 75
+        "progress" : 100
     },
     {
         "name" : "Jenkins",
         "icon" : "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jenkins/jenkins-original.svg",
-        "progress" : 75
+        "progress" : 90
     }
 ]
