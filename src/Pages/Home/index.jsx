@@ -16,16 +16,16 @@ const Home = () => {
                     </h1>
                     <div className="text-center textFont font-black m-auto text-[12.8px] leading-6">
                     <div className="mt-4 text-justify">
-                    I am Test Engineer with Skeptical mind and that makes my thoughts flowing and rolling inside my mind, I hunt for bugs in application that makes me bug hunter.
+                    As a seasoned Test Engineer with 10+ years of experience in automation testing, I bring a unique blend of skepticism and technical expertise to my role. My curious mind and bug-hunting skills make me an exceptional problem solver, constantly on the lookout for flaws in software applications. 
                             <br />
                         </div>
 
                         <div className="mt-4 text-justify">
-                            9.5+ years of experience as an Automation Test Engineer and has worked primarily in the BFSI domain. Most of my experience is in Payment Solutions and Financial Banking.
-                            <br />
+                            With a focus on the BFSI domain, particularly in Payment Solutions and Financial Banking, I have a deep understanding of the requirements and challenges faced by this industry. I am always seeking new opportunities to expand my skillset and make a valuable contribution to any organization. 
+      <br />
                         </div>
                         <div className="mt-4 textFont text-justify">
-                            Searching for an opportunity where I can have growth in my skillset and become an even more productive asset for the organization.
+                            My goal is to continue growing as a Test Engineer and become an even more productive asset for the company.
                         </div>
                     </div>
 
