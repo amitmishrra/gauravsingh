@@ -1,66 +1,93 @@
 [
-    {
-        "title": "Mphasis",
-        "time": "Feb 2021 - Feb 2023",
-        "pos": "Module Lead-Testing",
-        "responsibility": [
-            "Automating End to End test suites.",
-            "Setting up Selenium WebDriver Framework with JavaScript from start.",
-            "Setting up CI/CD pipelines in TeamCity.",
-            "Developing BDD and TDD script with Cucumber Java Selenium.",
-            "Setting up and contributing to developing API Automation Test cases.",
-            "Handle technical communications with Partners to understand client’s systems or APIs",
-            "Work with deployments teams and resolve any level issues for the system.",
-            "Also able to set up, maintain, and operate test automation frameworks.",
-            "Create & manage bug reports and communicate with the team."
-        ],
-        "icon" : "assets/icons/mph.jpg"
-    },
-    {
-        "title": "Fiserv",
-        "time": "June 2017 - Feb 2021",
-        "pos": "Automation Test Engineer",
-        "responsibility": [
-            "Implemented and Developed - Selenium-WebDriver framework (TestNG), and TOSCA-API framework.",
-            "Automated around 70% of test cases which team was manually executing previously.",
-            "Achieved and Automated 90% of in-sprint testcases.",
-            "Testing REST-API, validating the Endpoint URL, JSON request and responses.",
-            "Implemented and executing test cases through CI/CD , and generating reports."
-        ],
-        "icon" : "assets/icons/fin.jpg"
-    },
-    {
-        "title": "AartekOne",
-        "time": "May 2015 - Apr 2017",
-        "pos": "Test Engineer",
-        "responsibility": [
-            "API Testing through SOAP UI and Rest Assured Framework.",
-            "Involved in designing Rest Assured and Selenium web driver scripts with Java.",
-            "Performing and maintaining, testing in hybrid framework through QTP."
-        ],
-        "icon" : "assets/icons/aar.jpg"
-    },
-    {
-        "title": "ASK-EHS PVT. LTD",
-        "time": "Feb 2015 - May 2015",
-        "pos": "Test Engineer",
-        "responsibility": [
-            "Testing application through REST API and checking the responses.",
-            "Involved in manual and database testing.",
-            "Did performance testing with JMETER on static pages to check the response of application.",
-            "Writing test cases, executing test cases and logging defects.",
-            "Creating RTM and performing testing as per SRS."
-        ],
-        "icon" : "assets/icons/ask.jpg"
-    },
-    {
-        "title": "IBM",
-        "time": "Oct 2011-Nov 2012",
-        "pos": "Tech Server Ops.",
-        "responsibility": [
-            "Working on upgrading Linux package.",
-            "Working on resolving software issues for client."
-        ],
-        "icon" : "assets/icons/ibm.jpg"
-    }
+  {
+    "title": "TSYS",
+    "time": "Jul 2023 - Present",
+    "pos": "SDET Specialist",
+    "responsibility": [
+      "Lead the development of Java-based Test Automation Frameworks for Propay banking applications at TSYS Global",
+      "Enhanced testing practices and frameworks to improve quality and efficiency",
+      "Boosted test efficiency by organizing test cases, scripts, and documentation",
+      "Developed a unified automation framework for API, UI, and Mobile using Cucumber, Appium, Rest Assured, Java, and Maven",
+      "Engaged in technical discussions to create automation test cases for various microservices",
+      "Created a Performance Test Automation Framework with C#, MSTest, and Apache JMeter",
+      "Defined QA planning and strategy documentation prior to project kickoffs"
+    ],
+    "icon": "assets/icons/tsys.jpg"
+  },
+  {
+    "title": "R Systems",
+    "time": "Feb 2023 - Jul 2023",
+    "pos": "Project Leader-QC",
+    "responsibility": [
+      "Developed API automation for R systems using REST Assured and Ready API, enhancing and accelerating testing processes.",
+      "Significantly improved project efficiency and output quality through impactful contributions.",
+      "Built a comprehensive framework from scratch with Rest Assured, Cucumber, Java, and TestNG to execute and manage test cases",
+      "Automated complex, dynamically created APIs adaptable to any environment, including the creation of dynamic test data for automated test cases."
+    ],
+    "icon": "assets/icons/r_systems.jpg"
+  },
+  {
+    "title": "Mphasis",
+    "time": "Feb 2021 - Feb 2023",
+    "pos": "Module Lead-Testing",
+    "responsibility": [
+      "Automating End to End test suites.",
+      "Setting up Selenium WebDriver Framework with JavaScript from start.",
+      "Setting up CI/CD pipelines in TeamCity.",
+      "Developing BDD and TDD script with Cucumber Java Selenium.",
+      "Setting up and contributing to developing API Automation Test cases.",
+      "Handle technical communications with Partners to understand client’s systems or APIs",
+      "Work with deployments teams and resolve any level issues for the system.",
+      "Also able to set up, maintain, and operate test automation frameworks.",
+      "Create & manage bug reports and communicate with the team."
+    ],
+    "icon": "assets/icons/mph.jpg"
+  },
+  {
+    "title": "Fiserv",
+    "time": "June 2017 - Feb 2021",
+    "pos": "Automation Test Engineer",
+    "responsibility": [
+      "Implemented and Developed - Selenium-WebDriver framework (TestNG), and TOSCA-API framework.",
+      "Automated around 70% of test cases which team was manually executing previously.",
+      "Achieved and Automated 90% of in-sprint testcases.",
+      "Testing REST-API, validating the Endpoint URL, JSON request and responses.",
+      "Implemented and executing test cases through CI/CD , and generating reports."
+    ],
+    "icon": "assets/icons/fin.jpg"
+  },
+  {
+    "title": "AartekOne",
+    "time": "May 2015 - Apr 2017",
+    "pos": "Test Engineer",
+    "responsibility": [
+      "API Testing through SOAP UI and Rest Assured Framework.",
+      "Involved in designing Rest Assured and Selenium web driver scripts with Java.",
+      "Performing and maintaining, testing in hybrid framework through QTP."
+    ],
+    "icon": "assets/icons/aar.jpg"
+  },
+  {
+    "title": "ASK-EHS PVT. LTD",
+    "time": "Feb 2015 - May 2015",
+    "pos": "Test Engineer",
+    "responsibility": [
+      "Testing application through REST API and checking the responses.",
+      "Involved in manual and database testing.",
+      "Did performance testing with JMETER on static pages to check the response of application.",
+      "Writing test cases, executing test cases and logging defects.",
+      "Creating RTM and performing testing as per SRS."
+    ],
+    "icon": "assets/icons/ask.jpg"
+  },
+  {
+    "title": "IBM",
+    "time": "Oct 2011-Nov 2012",
+    "pos": "Tech Server Ops.",
+    "responsibility": [
+      "Working on upgrading Linux package.",
+      "Working on resolving software issues for client."
+    ],
+    "icon": "assets/icons/ibm.jpg"
+  }
 ]

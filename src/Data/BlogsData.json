@@ -1,4 +1,17 @@
 [
+    
+    {
+        "title" : "Automating Validation and Query Extraction with Google’s Gemini LLM Model and Java.",
+        "data" : "In today’s fast-paced digital landscape, ensuring the accuracy and relevance of both web and API data is vital for staying competitive...",
+        "link" : "https://medium.com/@String-Gaurav/enhancing-test-automation-with-googles-gemini-unleashing-advanced-validation-and-query-extraction-ff0b2b83eadc",
+        "img" : "assets/auto.webp"
+    },
+     {
+        "title" : "Leveraging LLMs for Locators (Xpath’s)Validation in Automated Testing",
+        "data" : "XPath validation plays a crucial role in ensuring the reliability of automated UI tests. However, manual...",
+        "link" : "https://medium.com/@String-Gaurav/leveraging-llms-for-xpath-validation-in-automated-testing-32938e9e5907",
+        "img" : "assets/x-path.webp"
+    },
     {
         "title" : "Losers VS Winners",
         "data" : "Deep inside our mind lot of questions are bubbling and we are in a race that makes those bubbling....",
