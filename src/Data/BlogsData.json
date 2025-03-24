@@ -1,6 +1,11 @@
 [
     
     {
+        "title" : "AI-Driven UI Automation Using LangChain and Google Gemini.",
+        "data" : "In this tutorial, we will explore how to automate UI validation tasks using Python with the help of LangChain, Google Gemini AI...",
+        "link" : "https://medium.com/@String-Gaurav/ai-driven-ui-automation-using-langchain-and-google-gemini-4db169ecd35a",
+        "img" : "assets/gemini.webp"
+    },{
         "title" : "Automating Validation and Query Extraction with Google’s Gemini LLM Model and Java.",
         "data" : "In today’s fast-paced digital landscape, ensuring the accuracy and relevance of both web and API data is vital for staying competitive...",
         "link" : "https://medium.com/@String-Gaurav/enhancing-test-automation-with-googles-gemini-unleashing-advanced-validation-and-query-extraction-ff0b2b83eadc",

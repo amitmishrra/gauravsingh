@@ -16,7 +16,7 @@ const Home = () => {
                     </h1>
                     <div className="text-center textFont font-black m-auto text-[12.8px] leading-6">
                     <div className="mt-4 text-justify">
-                    As a seasoned Test Engineer with 12+ years of experience in automation testing, I bring a unique blend of skepticism and technical expertise to my role. My curious mind and bug-hunting skills make me an exceptional problem solver, constantly on the lookout for flaws in software applications. 
+                    As a seasoned Test Engineer with 13+ years of experience in automation testing, I bring a unique blend of skepticism and technical expertise to my role. My curious mind and bug-hunting skills make me an exceptional problem solver, constantly on the lookout for flaws in software applications. 
                             <br />
                         </div>
                         <div className="mt-4 text-justify">
