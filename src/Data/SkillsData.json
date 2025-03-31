@@ -68,5 +68,10 @@
         "name" : "Jenkins",
         "icon" : "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jenkins/jenkins-original.svg",
         "progress" : 90
+    },
+    {
+        "name" : "Playwright",
+        "icon" : "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/playwright/playwright-original.svg",
+        "progress" : 85
     }
 ]
