@@ -16,11 +16,11 @@ const Home = () => {
                     </h1>
                     <div className="text-center textFont font-black m-auto text-[12.8px] leading-6">
                     <div className="mt-4 text-justify">
-                    As a seasoned Test Engineer with 13+ years of experience in automation testing, I bring a unique blend of skepticism and technical expertise to my role. My curious mind and bug-hunting skills make me an exceptional problem solver, constantly on the lookout for flaws in software applications. 
+                    With over 13 years of experience in automation testing, I bring a sharp eye for detail, a deep-rooted sense of curiosity, and a results-driven mindset to every project. My strong problem-solving abilities, combined with a relentless pursuit of software quality, enable me to uncover hidden issues and ensure robust application performance. 
                             <br />
                         </div>
                         <div className="mt-4 text-justify">
-                            With a focus on the BFSI domain, particularly in Payment Solutions and Financial Banking, I have a deep understanding of the requirements and challenges faced by this industry. I am always seeking new opportunities to expand my skillset and make a valuable contribution to any organization. 
+                            Specializing in multiple domains and particularly the BFSI domain—particularly Payment Solutions and Financial Banking—I possess in-depth knowledge of the industry’s standards, challenges, and regulatory requirements. My extensive expertise allows me to deliver high-quality testing solutions that align with business goals and technical needs. 
       <br />
                         </div>
                         <div className="mt-4 textFont text-justify">
