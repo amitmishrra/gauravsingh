@@ -43,7 +43,7 @@ const Home = () => {
                             <GitHubIcon className='socialMedia' fontSize="medium" />
                         </a>
 
-                        <a target={"_blank"} href="./assets/Gaurav Singh-CV-01.pdf">
+                        <a target={"_blank"} href="./assets/gaurav-singh (3).pdf">
                             <AttachFileIcon className='socialMedia' fontSize="medium" />
                         </a>
                     </div>
