@@ -27,7 +27,7 @@ export default function Skills() {
             <section>
                 <h1>Skills.</h1>
 
-                <div className='flex justify-between items-center flex-row w-[100%] flex-wrap'>
+                <div className='flex justify-start items-center flex-row w-[100%] flex-wrap'>
                     {
                         SkillsData.map((data) => {
                             return (

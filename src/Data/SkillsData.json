@@ -73,5 +73,21 @@
         "name" : "Playwright",
         "icon" : "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/playwright/playwright-original.svg",
         "progress" : 85
+    },
+
+    {
+        "name" : "JavaScript",
+        "icon" : "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg",
+        "progress" : 80
+    },
+    {
+        "name" : "TypeScript",
+        "icon" : "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg",
+        "progress" : 70
+    },
+    {
+        "name" : "Cypress",
+        "icon" : "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cypressio/cypressio-original.svg",
+        "progress" : 85
     }
 ]
